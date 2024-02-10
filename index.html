@@ -4,53 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Rent a Planet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Header Logo
+    <header>
         <nav class="navbar">
-          <ul class="nav-links">
-            <li><a href="#welcome" class="nav-link">Welcome</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
+            <div class="logo-container">
+                <img src="images/icon.png"
+                id="header-img"
+                />
+                <span class="the-service">Rent a Planet</span>
+            </div>
+            <ul class="nav-links">
+              <li><a href="#welcome" class="nav-link">Welcome</a></li>
+              <li><a href="#planets" class="nav-link">Planets</a></li>
+              <li><a href="#signup" class="nav-link">Sign Up</a></li>
+            </ul>
         </nav>
     </header>
     <section id="welcome">
-        <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+        <div class="left">
+            <h1>Have You Ever Wanted to Rent a Planet?</h1>
+            <p>Here's your chance! Earth is melting, so now is the time. Sign up for our planetary subscription plan!</p>
             <button class="signup">Sign up</button>
-            <img src="images/planets.jpg" height="auto" width="400" alt="Solar System planets in a row"/>
+        </div>
+        <img id="main-photo" src="images/planets.jpg" height="auto" width="400" alt="Solar System planets in a row"/>
     </section>
-    <section id="projects">
-        <h2>Some Random Info</h2>
-        <div class="projects">
-            <a href="#" class="project-tile">
+    <section id="planets">
+        <h2>Some of Our Offerings</h2>
+        <div class="planets">
+            <div class="info">
+                <a href="https://en.wikipedia.org/wiki/Orbit" target="_blank" class="planet-tile">
                 <img src="images/astronaut.jpg" height="150" width="150" alt="An astronaut floating in front of a planet">
-            </a>
-            <div class="description">Subtext for the photo</div>
-            <a href="#" class="project-tile">
+                </a>
+                <div class="description">This could be you in space</div>
+            </div>
+            <div class="info">
+                <a href="https://en.wikipedia.org/wiki/Moon" target="_blank" class="planet-tile">
                 <img src="images/moon.jpg" height="150" width="150" alt="The moon in the darkness of space">
-            </a>
-            <div class="description">Subtext for the photo</div>
-            <a href="#" class="project-tile">
+                </a>
+                <div class="description">Popular for the ambiance</div>
+            </div>
+            <div class="info">
+                <a href="https://en.wikipedia.org/wiki/Galaxy" target="_blank" class="planet-tile">
                 <img src="images/galaxy.jpg" height="150" width="150" alt="The galaxy">
-            </a>
-            <div class="description">Subtext for the photo</div>
-            <a href="#" class="project-tile">
+                </a>
+                <div class="description">For galaxy lovers only</div>
+            </div>
+            <div class="info">
+                <a href="https://en.wikipedia.org/wiki/Venus" target="_blank" class="planet-tile">
                 <img src="images/horizon.jpg" height="150" width="150" alt="Sunrise on the horizon of a planet">
-            </a>
-            <div class="description">Subtext for the photo</div>
+                </a>
+                <div class="description">Check out that view</div>
+            </div>
         </div>
     </section>
     <section class="quote">
-        <blockquote><em>This is a very inspirational quote to get you so pumped. -me </em></blockquote>
+        <blockquote><p>You've never experienced living until you've gotten off this planet.</p>
+        <footer class="footer">-Karen Smith, Founder</footer>
+        </blockquote>
     </section>
-    <section id="contact">
-        <div class="container"><strong>This section has a signup button! </strong>I swear to god it does!</div>
-          <div class="button"><button class="signup">Sign up</button></div>
+    <section id="signup">
+        <div class="container"><div><h3><strong>Don't waste any time! </strong></h3>Sign up today and get a month of planets free!</div><div id="button"><button class="signup">Sign up</button></div></div>
     </section>
-    <footer>Copyright @ The Odin Project 2021</footer>
+    <footer id="footer">Copyright @ Karen Smith 2024</footer>
 </body>
 </html>
