@@ -163,6 +163,12 @@ h3 {
 }
 
 #footer {
+    color: white;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 18px;
     margin-top: auto;
 }
