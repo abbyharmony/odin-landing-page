@@ -123,7 +123,7 @@ img {
 }
 
 .quote {
-    height: 300px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,9 +139,10 @@ blockquote {
 .container {
     background-color: #3882F6;
     color: white;
-    margin: 100px 200px;
+    margin: 50px 100px;
     padding: 48px;
     border-radius: 8px;
+    width: 700px;
     display: flex;
     align-items: center;
     justify-content: space-around;   
@@ -150,7 +151,7 @@ blockquote {
 #signup {
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
+    align-items: center;
 }
 
 h3 {
